@@ -1,0 +1,36 @@
+h1 {
+  color: black;
+}
+body {
+  background-color: #DCDCDC;
+}
+dd {
+  margin-bottom: 10px;
+}
+.jumbotron {
+  font-size: 18px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  background-color: #DCDCDC;
+}
+.nav li a:hover {
+  color: #ADADAD;
+}
+.nav a {
+  color: black;
+}
+footer p {
+  margin-bottom: 20px;
+}
+
+hr {
+  border-top: 1px solid #ADADAD;
+}
+@media (min-width: 992px) {
+  .nav {
+    position: fixed;
+  }
+  .nav li {
+    float: none;
+  }
+}
